@@ -38,6 +38,7 @@ This project is a web-based portfolio showcasing various projects and skills. It
 ### Development
 
 To start the development server, run:
+
 ```bash
 npm run dev
 ```
@@ -45,6 +46,7 @@ npm run dev
 ### Build
 
 To build the project for production, run:
+
 ```bash
 npm run build
 ```
@@ -52,6 +54,7 @@ npm run build
 ### Preview
 
 To preview the production build, run:
+
 ```bash
 npm run preview
 ```
@@ -59,10 +62,11 @@ npm run preview
 ### Lint
 
 To lint the project files, run:
+
 ```bash
 npm run lint
 ```
 
 ## Contact
 
-For any inquiries, please contact [gauravmehra2470@gmail.com]. 
+For any inquiries, please contact [anshumannaithani7@gmail.com].

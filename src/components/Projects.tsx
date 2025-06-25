@@ -7,12 +7,7 @@ import ProjectCard from "./ProjectCard";
 import projects from "../data/projects";
 
 const Projects = () => {
-  const categories = [
-    "All",
-    // "React",
-    "MERN",
-    "Collab",
-  ];
+  const categories = ["All", "MERN", "Python", "Java", "Salesforce"];
   const [activeCategory, setActiveCategory] = useState("All");
   const [showNavButtons, setShowNavButtons] = useState(false);
   const [ref, inView] = useInView({

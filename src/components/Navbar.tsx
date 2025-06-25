@@ -1,15 +1,15 @@
-import { useState, useEffect } from 'react';
-import { Moon, Sun, Menu, X } from 'lucide-react';
-import { motion } from 'framer-motion';
-import { useTheme } from '../context/ThemeContext';
+import { useState, useEffect } from "react";
+import { Moon, Sun, Menu, X } from "lucide-react";
+import { motion } from "framer-motion";
+import { useTheme } from "../context/ThemeContext";
 
 const navLinks = [
-  { name: 'Home', href: '#home' },
-  { name: 'About', href: '#about' },
-  { name: 'Skills', href: '#skills' },
-  { name: 'Projects', href: '#projects' },
-  { name: 'Experience', href: '#experience' },
-  { name: 'Contact', href: '#contact' },
+  { name: "Home", href: "#home" },
+  { name: "About", href: "#about" },
+  { name: "Skills", href: "#skills" },
+  { name: "Projects", href: "#projects" },
+  { name: "Experience", href: "#experience" },
+  { name: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
@@ -27,8 +27,8 @@ const Navbar = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const toggleMenu = () => {
@@ -36,17 +36,17 @@ const Navbar = () => {
   };
 
   return (
-    <header 
+    <header
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-white/90 dark:bg-gray-900/90 shadow-soft backdrop-blur-sm py-3'
-          : 'bg-transparent py-5'
+        isScrolled
+          ? "bg-white/90 dark:bg-gray-900/90 shadow-soft backdrop-blur-sm py-3"
+          : "bg-transparent py-5"
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <motion.a 
+          <motion.a
             href="#home"
             className="text-xl font-bold text-primary-600 dark:text-primary-400 font-mono tracking-tight relative group"
             initial={{ opacity: 0 }}
@@ -54,7 +54,7 @@ const Navbar = () => {
             transition={{ duration: 0.5 }}
           >
             <span className="bg-gradient-to-r from-primary-600 to-purple-600 dark:from-primary-400 dark:to-purple-400 bg-clip-text text-transparent">
-              This is Gaurav
+              This is Anshuman
             </span>
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-600 to-purple-600 dark:from-primary-400 dark:to-purple-400 transition-all duration-300 group-hover:w-full"></span>
           </motion.a>
@@ -73,7 +73,7 @@ const Navbar = () => {
                 {link.name}
               </motion.a>
             ))}
-            
+
             {/* Theme Toggle */}
             <motion.button
               onClick={toggleTheme}
@@ -83,7 +83,7 @@ const Navbar = () => {
               transition={{ duration: 0.3 }}
               aria-label="Toggle theme"
             >
-              {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+              {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
             </motion.button>
           </nav>
 
@@ -95,10 +95,10 @@ const Navbar = () => {
               whileTap={{ scale: 0.95 }}
               aria-label="Toggle theme"
             >
-              {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
+              {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
             </motion.button>
-            
-            <button 
+
+            <button
               onClick={toggleMenu}
               className="p-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
               aria-label="Toggle menu"
@@ -111,10 +111,10 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <motion.div 
+        <motion.div
           className="md:hidden bg-white dark:bg-gray-900 shadow-md"
           initial={{ opacity: 0, height: 0 }}
-          animate={{ opacity: 1, height: 'auto' }}
+          animate={{ opacity: 1, height: "auto" }}
           exit={{ opacity: 0, height: 0 }}
           transition={{ duration: 0.3 }}
         >

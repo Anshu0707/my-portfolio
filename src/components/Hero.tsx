@@ -13,12 +13,12 @@ const Hero = () => {
             className="order-2 md:order-1"
           >
             <span className="inline-block px-3 py-1 mb-4 text-sm font-medium text-primary-600 dark:text-primary-400 bg-primary-50 dark:bg-primary-900/30 rounded-full">
-              Frontend Developer
+              Fullstack Developer
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-gray-900 dark:text-white">
               Hi, I'm{" "}
               <span className="text-primary-600 dark:text-primary-400">
-                Gaurav Mehra
+                Anshuman Naithani
               </span>
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
@@ -39,7 +39,7 @@ const Hero = () => {
 
               <motion.a
                 href="/Resume.pdf"
-                download="gaurav-mehra-resume.pdf"
+                download="anshuman-naithani-resume.pdf"
                 className="px-6 py-3 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 text-gray-800 dark:text-gray-200 font-medium rounded-lg flex items-center justify-center hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
@@ -59,7 +59,7 @@ const Hero = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-tr from-primary-400 to-secondary-500 dark:from-primary-600 dark:to-secondary-700 opacity-20 absolute top-10 -left-10 blur-2xl"></div>
               <div className="w-72 h-72 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-primary-500 to-accent-500 dark:from-primary-700 dark:to-accent-700 overflow-hidden border-8 border-white dark:border-gray-800 shadow-soft-lg relative z-10">
                 <img
-                  src="/images/mine/Hero.jpeg"
+                  src="/images/mine/Hero.jpg"
                   alt="Professional portrait"
                   className="w-full h-full object-cover"
                 />

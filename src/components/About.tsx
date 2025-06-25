@@ -24,13 +24,13 @@ const About = () => {
   const stats = [
     {
       icon: <Code size={22} />,
-      value: "2.5+",
+      value: "1+",
       label: "Years Experience",
       color: "bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400",
     },
     {
       icon: <Briefcase size={22} />,
-      value: "10+",
+      value: "7+",
       label: "Projects Completed",
       color:
         "bg-purple-50 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400",
@@ -44,8 +44,8 @@ const About = () => {
     },
     {
       icon: <HeartHandshake size={22} />, // Or another relevant icon
-      value: "5+",
-      label: "Positive Client Reviews",
+      value: "3",
+      label: "Industry Internship Completed",
       color: "bg-teal-50 dark:bg-teal-900/30 text-teal-600 dark:text-teal-400",
     },
     // {
@@ -94,7 +94,7 @@ const About = () => {
 
             <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
               I'm a passionate frontend developer based in the foothills of
-              Dehradun, bringing 2.5+ years of experience in building modern,
+              Dehradun, bringing 1+ years of experience in building modern,
               responsive web applications. I specialize in creating
               pixel-perfect UIs and seamless user experiences using React,
               TypeScript, and cutting-edge web technologies. My approach to
