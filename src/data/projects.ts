@@ -97,10 +97,8 @@ const projects: Project[] = [
   "Scikit-learn",
   "Cosine Similarity",
   "Count Vectorizer",
-
   "Jupyter Notebook",
   "Data Science",
-
 ]
 ,
     demo: "https://github.com/Anshu0707/movie-recommender",
@@ -133,7 +131,7 @@ const projects: Project[] = [
     category: ["All", "MERN"],
   },
   {
-    id: 4,
+    id: 7,
     title: "Expense Tracker",
     description:
       "A robust, console-based Java application for tracking income and expenses month-wise, with clear summaries and structured data entry — built using SOLID principles for maintainability and scalability.",
