@@ -30,7 +30,7 @@ const About = () => {
     },
     {
       icon: <Briefcase size={22} />,
-      value: "7+",
+      value: "5+",
       label: "Projects Completed",
       color:
         "bg-purple-50 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400",
@@ -48,6 +48,14 @@ const About = () => {
       label: "Industry Internship Completed",
       color: "bg-teal-50 dark:bg-teal-900/30 text-teal-600 dark:text-teal-400",
     },
+    {
+      icon: <Code size={22} />, // you can use `TerminalSquare`, `ListOrdered`, or any other DSA-related icon
+      value: "400+",
+      label: "Leetcode DSA Problems",
+      color:
+        "bg-yellow-50 dark:bg-yellow-900/30 text-yellow-600 dark:text-yellow-400",
+    },
+
     // {
     //   icon: <Globe size={22} />,
     //   value: '10+',
