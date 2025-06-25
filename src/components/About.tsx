@@ -51,7 +51,7 @@ const About = () => {
     {
       icon: <Code size={22} />, // you can use `TerminalSquare`, `ListOrdered`, or any other DSA-related icon
       value: "400+",
-      label: "Leetcode DSA Problems",
+      label: "DSA problems on LeetCode",
       color:
         "bg-yellow-50 dark:bg-yellow-900/30 text-yellow-600 dark:text-yellow-400",
     },
