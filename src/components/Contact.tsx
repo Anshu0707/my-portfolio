@@ -70,8 +70,8 @@ const Contact = () => {
         <Phone size={24} className="text-primary-500 dark:text-primary-400" />
       ),
       title: "Phone",
-      content: "+91 9557915693",
-      link: "tel:+91-9557915693",
+      content: "+91 7895411185",
+      link: "tel:+91-7895411185",
     },
     {
       icon: (
