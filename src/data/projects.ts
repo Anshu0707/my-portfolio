@@ -3,6 +3,17 @@ import { Project } from "../components/ProjectCard";
 const projects: Project[] = [
   {
     id: 1,
+    title: "FlowOps",
+    description:
+      "FlowOps is an intuitive AI workflow builder that empowers users to create, manage, and optimize workflows effortlessly. It’s designed for rapid prototyping of node-based LLM flows with dynamic inputs, outputs, and system logic — all rendered on a beautiful, responsive canvas.",
+    image: "/images/projects/flow-ops.png",
+    tags: ["AI", "React", "Node-Based", "Workflow", "React Flow", "Zustand", "Tailwind CSS", "Python", "FastAPI", "Web Application", "Atomic Design", "Abstraction"],
+    demo: "https://flowops-hu9f.onrender.com/",
+    github: "https://github.com/Anshu0707/flowOps",
+    category: ["All", "Python"],
+  },
+  {
+    id: 2,
     title: "E-Sales",
     description:
       "A modern full-stack e-commerce platform built with React on the frontend and Express.js on the backend. This project demonstrates robust cart management, dynamic order summaries, seamless email notifications, and well-structured Express APIs.",
@@ -26,7 +37,7 @@ const projects: Project[] = [
     category: ["All", "MERN"],
   },
   {
-    id: 2,
+    id: 3,
     title: "Interview Master",
     description:
       "AI-powered Interview Question Generator that dynamically creates role-specific technical questions using CohereAI/OpenAI instruction model.",
@@ -37,7 +48,7 @@ const projects: Project[] = [
     category: ["All", "MERN"],
   },
   {
-    id: 3,
+    id: 4,
     title: "Anamoly Detection System",
     description:
       "A real-time anomaly detection system for Airtel's network traffic using an optimized Holt-Winters forecasting model in Python, deployed on Linux with Kafka, Elasticsearch, Zabbix, Grafana, and Prometheus to trigger intelligent alerts from TSA data.",
@@ -61,7 +72,7 @@ const projects: Project[] = [
     category: ["All", "Python"],
   },
     {
-    id: 4,
+    id: 5,
     title: "Bank Force",
     description:
       "A secure, automated, and insight-driven banking management solution built on the Salesforce CRM platform. This project simulates a production-grade banking system with fine-tuned access control, automated customer workflows, and rich data visualization for internal teams.",
@@ -83,7 +94,7 @@ const projects: Project[] = [
   },
   
    {
-    id: 5,
+    id: 6,
     title: "Movie Recommender",
     description:
       "A content-based movie recommender built with Python, basic NLP tools (CountVectorizer), and Scikit-learn. Combines genres and tags to compute cosine similarity and suggest similar movies with clean, fast logic.",
@@ -106,7 +117,7 @@ const projects: Project[] = [
     category: ["All", "Python"],
   },
     {
-    id: 6,
+    id: 7,
     title: "Forecastly",
     description:
       "A modern, responsive weather application built with React, leveraging the OpenWeatherMap API to deliver real-time weather updates.",
@@ -131,7 +142,7 @@ const projects: Project[] = [
     category: ["All", "MERN"],
   },
   {
-    id: 7,
+    id: 8,
     title: "Expense Tracker",
     description:
       "A robust, console-based Java application for tracking income and expenses month-wise, with clear summaries and structured data entry — built using SOLID principles for maintainability and scalability.",
@@ -154,7 +165,7 @@ const projects: Project[] = [
     category: ["All", "Java"],
   },
   {
-    id: 8,
+    id: 9,
     title: "Dine Mate",
     description:
       "A sleek, responsive restaurant table management app built with Vanilla JavaScript — no frameworks, no libraries. Features drag-and-drop ordering, live bill updates, and multi-table support. Fully functional UI using just HTML, CSS, and pure JS — fast, lightweight, and framework-free.",
